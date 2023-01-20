@@ -1,0 +1,169 @@
+body {
+    background-color: white;
+}
+
+#maincontainer {
+    display: inline;
+}
+
+.content {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+header {
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 35px;
+    color: #00BFFF;
+    justify-content: space-between;
+}
+
+#btn {
+    background-color: #00BFFF;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    float: right;
+}
+
+input[type=text],
+input[type=password] {
+    background-color: white;
+    border-radius: 5px;
+    color: #808080;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+#sidebar {
+    position: sticky;
+    margin-top: 1px;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#navcontainer {
+    display: inline;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#sidebar a:hover {
+    background-color: lightblue;
+}
+
+#sidebar img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    margin-left: 225px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    border: 2px solid black;
+    margin-right: 225;
+    background-color: #686868;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 450px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#chat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
+    overflow-y: auto;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#titulo {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.container input[type=text] {
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.container input[type=text]::placeholder {
+    color: rgb(224, 224, 224);
+}
+
+::placeholder {
+    color: gray;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(0, 47, 255), rgb(229, 239, 255));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(74, 8, 255), rgb(255, 255, 255))
+}
